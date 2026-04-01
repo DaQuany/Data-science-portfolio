@@ -1,10 +1,130 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
-# use quarto markdown to 
+title: ""
+page-layout: full
+toc: false
 ---
 
-# Title 1 Header
-## Title 2 Header
+```{=html}
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+<div class="hero-section">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Hello, I'm</p>
+      <h1 class="hero-name">Giseok Kwon</h1>
+      <p class="hero-tagline">Computer Science student with a passion for<br>data analysis, machine learning, and building things.</p>
+      <div class="hero-links">
+        <a href="resume.qmd" class="btn-soft">View Resume</a>
+        <a href="#projects" class="btn-outline">See Projects</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-ring">
+        <span>CS</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About -->
+<section class="section-block" id="about">
+  <div class="section-inner two-col">
+    <div class="section-label">About</div>
+    <div class="section-content">
+      <p>I'm a Computer Science student with a growing interest in data analysis and machine learning. I enjoy building clean, functional software and exploring how data can tell meaningful stories.</p>
+      <p>When I'm not coding, I'm usually exploring new datasets, competing in hackathons, or learning something new in the ML space.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="section-block alt" id="skills">
+  <div class="section-inner two-col">
+    <div class="section-label">Skills</div>
+    <div class="section-content">
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">R</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Data & ML</h4>
+          <div class="tag-row">
+            <span class="tag">Pandas</span>
+            <span class="tag">scikit-learn</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Tools & Platforms</h4>
+          <div class="tag-row">
+            <span class="tag">Git</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Quarto</span>
+            <span class="tag">Jupyter</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section-block" id="projects">
+  <div class="section-inner">
+    <div class="section-label-top">Featured Projects</div>
+    <div class="cards-grid">
+
+      <div class="project-card">
+        <div class="card-tag">Full Stack</div>
+        <h3>Project Title Here</h3>
+        <p>A short description of what this project does and what technologies or techniques were used.</p>
+        <a href="Full_Stack/project1.qmd" class="card-link">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="card-tag">Full Stack</div>
+        <h3>Project Title Here</h3>
+        <p>A short description of what this project does and what technologies or techniques were used.</p>
+        <a href="Full_Stack/project2.qmd" class="card-link">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="card-tag">Competition</div>
+        <h3>Competition Entry</h3>
+        <p>A short description of the competition, your approach, and the results you achieved.</p>
+        <a href="Competition/project1.qmd" class="card-link">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="card-tag">Competition</div>
+        <h3>Competition Entry</h3>
+        <p>A short description of the competition, your approach, and the results you achieved.</p>
+        <a href="Competition/project2.qmd" class="card-link">View Project →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section-block alt" id="contact">
+  <div class="section-inner two-col">
+    <div class="section-label">Contact</div>
+    <div class="section-content">
+      <p>Feel free to reach out — I'm open to internships, collaborations, or just a good conversation about data and code.</p>
+      <div class="contact-links">
+        <a href="mailto:your@email.com" class="contact-item">📧 your@email.com</a>
+        <a href="https://linkedin.com/in/yourprofile" class="contact-item" target="_blank">💼 LinkedIn</a>
+        <a href="https://github.com/username" class="contact-item" target="_blank">🐱 GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+```
