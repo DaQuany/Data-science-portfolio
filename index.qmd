@@ -120,9 +120,9 @@ toc: false
     <div class="section-content">
       <p>Feel free to reach out — I'm open to internships, collaborations, or just a good conversation about data and code.</p>
       <div class="contact-links">
-        <a href="mailto:your@email.com" class="contact-item">📧 your@email.com</a>
-        <a href="https://linkedin.com/in/yourprofile" class="contact-item" target="_blank">💼 LinkedIn</a>
-        <a href="https://github.com/username" class="contact-item" target="_blank">🐱 GitHub</a>
+        <a href="mailto:rnjs980525@gmail.com" class="contact-item">📧 rnjs980525@gmail.com</a>
+        <a href="https://linkedin.com/in/quan2/" class="contact-item" target="_blank">💼 linkedin.com/in/quan2</a>
+        <a href="https://github.com/DaQuany" class="contact-item" target="_blank">🐱 github.com/DaQuany</a>
       </div>
     </div>
   </div>

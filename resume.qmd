@@ -1,30 +1,195 @@
 ---
-title: "Resume"
+title: ""
 toc: false
+page-layout: full
 ---
 
 ```{=html}
-<div class="content">
-  <p style="color: var(--text-muted); font-size: 0.9rem;">
-    You can embed your resume here as a PDF viewer, or describe your experience below.
-    Replace this section with your actual resume content.
-  </p>
+<div class="resume-page">
+
+  <!-- Header -->
+  <div class="resume-header">
+    <h1 class="resume-name">Giseok Kwon</h1>
+    <div class="resume-contacts">
+      <a href="mailto:rnjs980525@gmail.com">rnjs980525@gmail.com</a>
+      <span class="sep">·</span>
+      <span>986-231-7716</span>
+      <span class="sep">·</span>
+      <a href="https://linkedin.com/in/quan2/" target="_blank">LinkedIn</a>
+      <span class="sep">·</span>
+      <a href="https://github.com/DaQuany" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="resume-section">
+    <div class="resume-section-label">Education</div>
+    <div class="resume-section-body">
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">Brigham Young University – Idaho</span>
+          <span class="item-meta">B.S. Computer Science &nbsp;·&nbsp; GPA: 3.54 / 4.00</span>
+        </div>
+        <p class="item-note">Related coursework: Machine Learning · Object Oriented Programming · Data Structures</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technical Skills -->
+  <div class="resume-section">
+    <div class="resume-section-label">Skills</div>
+    <div class="resume-section-body">
+      <div class="skills-table">
+        <div class="skill-row">
+          <span class="skill-level">Proficient</span>
+          <div class="tag-row">
+            <span class="tag">C++</span>
+            <span class="tag">C#</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-level">Intermediate</span>
+          <div class="tag-row">
+            <span class="tag">Java</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-level">Beginner</span>
+          <div class="tag-row">
+            <span class="tag">Unreal Engine</span>
+            <span class="tag">Unity</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Academic Projects -->
+  <div class="resume-section">
+    <div class="resume-section-label">Projects</div>
+    <div class="resume-section-body">
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">AI Chatbot Service for Business Analytics</span>
+          <a class="item-link" href="https://github.com/tayloroh98/RAG_Marketing" target="_blank">GitHub →</a>
+        </div>
+        <ul class="item-bullets">
+          <li>Built a RAG chatbot that extracts actionable business insights from unorganized Excel files.</li>
+          <li>Optimized data indexing to overcome resource constraints and deliver high-fidelity data analysis.</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">Haptic Device for Hearing Impaired</span>
+          <a class="item-link" href="https://devpost.com/software/haptic-device-for-hearing-impaired" target="_blank">Devpost →</a>
+        </div>
+        <ul class="item-bullets">
+          <li>Developed a web application that converts video content into vibration sequences using Runware and ElevenLabs.</li>
+          <li>Resolved complex API communication gaps via iterative debugging, winning 3rd place in Weber State AI Hackathon.</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">Imprint Success DNA</span>
+          <a class="item-link" href="https://devpost.com/software/imprint-success-dna" target="_blank">Devpost →</a>
+        </div>
+        <ul class="item-bullets">
+          <li>Architected a Node.js backend for a personalized scheduling platform, winning 3rd place in BYU-Idaho Hackathon.</li>
+          <li>Translated cross-functional team feedback into actionable technical requirements and creative blueprints.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Experience -->
+  <div class="resume-section">
+    <div class="resume-section-label">Experience</div>
+    <div class="resume-section-body">
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">Study Skills Coach</span>
+          <span class="item-date">Jun 2024 – Dec 2025</span>
+        </div>
+        <div class="item-sub">Brigham Young University Idaho · Rexburg, Idaho</div>
+        <ul class="item-bullets">
+          <li>Mentored 100+ students with time management and study strategies to increase academic performance and GPA.</li>
+          <li>Demonstrated leadership by onboarding and training 3 newly hired study skills coaches.</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">Online Tutor — CSE 110 & 210</span>
+          <span class="item-date">Jan 2023 – Apr 2024</span>
+        </div>
+        <div class="item-sub">Brigham Young University Idaho · Rexburg, Idaho</div>
+        <ul class="item-bullets">
+          <li>Instructed Python and Java fundamentals, clarifying basic syntax and programming grammar.</li>
+          <li>Helped students make meaningful progress in limited time by addressing needs quickly and effectively.</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">Teaching Assistant</span>
+          <span class="item-date">Dec 2015 – May 2017</span>
+        </div>
+        <div class="item-sub">Myeongmun Software Institute · Ilsan, South Korea</div>
+        <ul class="item-bullets">
+          <li>Simplified algorithmic concepts through interactive, real-world coding lectures for diverse student demographics.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Leadership & Service -->
+  <div class="resume-section">
+    <div class="resume-section-label">Leadership</div>
+    <div class="resume-section-body">
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">Certified Vehicle Driver</span>
+          <span class="item-date">Oct 2020 – Apr 2022</span>
+        </div>
+        <div class="item-sub">Republic of Korea Army</div>
+        <ul class="item-bullets">
+          <li>Maintained strict discipline while executing daily base security, vehicle maintenance, and combat training.</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="item-title">Full-time Missionary</span>
+          <span class="item-date">May 2017 – May 2019</span>
+        </div>
+        <div class="item-sub">The Church of Jesus Christ of Latter-day Saints · Melbourne, Australia</div>
+        <ul class="item-bullets">
+          <li>Supported local humanitarian initiatives, including railroad restoration and Red Cross service.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Additional -->
+  <div class="resume-section">
+    <div class="resume-section-label">Additional</div>
+    <div class="resume-section-body">
+      <p class="item-note">Work Eligibility: Authorized to work in the U.S. (permanent residency via spousal sponsorship in progress).</p>
+      <p class="item-note">Languages: <strong>Fluent</strong> in Korean and English · <strong>Conversational</strong> in Spanish and Japanese</p>
+    </div>
+  </div>
+
 </div>
 ```
-
-## Education
-
-**Your University** — B.S. Computer Science  
-*Expected Graduation: 202X*
-
-## Experience
-
-**Job Title** — Company Name  
-*Month Year – Present*
-
-- Key responsibility or achievement
-- Key responsibility or achievement
-
-## Relevant Coursework
-
-Data Structures · Algorithms · Machine Learning · Database Systems · Software Engineering
